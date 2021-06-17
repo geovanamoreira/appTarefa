@@ -1,17 +1,32 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+<ion-header>
+  <ion-toolbar color="vermelho" >
+    <ion-title class="ion-text-center">
+      Principal
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card color="sla">
+    <ion-item color="vremin">
+      <ion-thumbnail slot="start">
+        <img src="https://pa1.narvii.com/6581/42b3d5008bdacb871a744b7d7b5f73b686b51115_hq.gif">
+      </ion-thumbnail>
+      <ion-label>Desenvolvedora</ion-label>
+    </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      <ion-card>
+
+        <img src="https://images5.alphacoders.com/911/thumb-1920-911831.jpg" />
+
+        <ion-card-header>
+          <ion-card-subtitle>BEM-VINDOS!!!</ion-card-subtitle>
+          <ion-card-title>Recados</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          Esse é um app teste feito para passar informações básicas de Gravity Falls até antes da revelação do autor dos diários. Se divirta!
+        </ion-card-content>
+      </ion-card>
+  </ion-card>
 </ion-content>
